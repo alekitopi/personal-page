@@ -984,7 +984,7 @@ const animation = async () => {
                 currentWord += finalWord[currentWord.length];
                 word.innerText = currentWord;
               }
-            }, 20);
+            }, 15);
           });
 
           resolve(true);
