@@ -1,48 +1,22 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/style.css" type="text/css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <script defer src="index.js"></script>
 
     <title>alekitopi</title>
-</head>
-<body>
+  </head>
+  <body>
     <div class="terminal">
-        <div class="top">
-            <div class="btn close"></div>
-            <div class="btn minimize"></div>
-            <div class="btn maximize"></div>
-        </div>
-        <div class="content">
-            <pre class="code-default" style="line-height: 125%">
-<span class="code-keys" style="font-weight: bold">function</span> <span class="code-function">createAlekitopi</span><span class="code-bracket">(</span><span class="code-var">mood</span><span class="code-bracket">)</span> <span class="code-object">{</span>
-    <span class="code-keys" style="font-weight: bold">var</span> <span class="code-var">alekitopi</span> = <span class="code-keys" style="font-weight: bold">new</span> <span class="code-function">Person</span><span class="code-bracket">()</span>;
-
-    <span class="code-var">alekitopi</span>.<span class="code-function">setName</span><span class="code-bracket">(</span><span class="code-string">&quot;Alejandro Q.&quot;</span><span class="code-bracket">)</span>;
-    <span class="code-var">alekitopi</span>.<span class="code-function">setBio</span><span class="code-bracket">(</span><span class="code-string">&quot;soy algo multiusos. se me ocurren ideas locas, programo y de vez en cuando hago directos&quot;</span><span class="code-bracket">)</span>;
-    <span class="code-var">alekitopi</span>.<span class="code-function">setNicks</span><span class="code-bracket">(</span><span class="code-object">[</span><span class="code-string">&quot;alekitopi&quot;</span>,</span> <span class="code-string">&quot;aleki&quot;</span>, <span class="code-string">&quot;ale&quot;</span><span class="code-object">]</span><span class="code-bracket">)</span>;
-    <span class="code-var">alekitopi</span>.<span class="code-function">setLocations</span><span class="code-bracket">(</span><span class="code-string">&quot;Canary Islands, Spain&quot;</span><span class="code-bracket">)</span>;
-    <span class="code-var">alekitopi</span>.<span class="code-function">setMood</span><span class="code-bracket">(</span><span class="code-var">mood</span><span class="code-bracket">)</span>;
-
-    <span class="code-comment">/* working on... */</span>
-    <span class="code-var">alekitopi</span>.<span class="code-function">addJob</span><span class="code-bracket">(</span><span class="code-object">{</span> <span class="code-var">name</span>: <span class="code-string">&quot;PyroNode&quot;</span>, <span class="code-var">role</span>: <span class="code-string">&quot;director&quot;</span>, <span class="code-var">link</span>: <a href="https://pyronode.com" class="code-string">&quot;https://pyronode.com&quot;</a> <span class="code-object">}</span><span class="code-bracket">)</span>;
-    <span class="code-var">alekitopi</span>.<span class="code-function">addJob</span><span class="code-bracket">(</span><span class="code-object">{</span> <span class="code-var">name</span>: <span class="code-string">&quot;TwitchUtilities&quot;</span>, <span class="code-var">role</span>: <span class="code-string">&quot;dev&quot;</span>, <span class="code-var">link</span>: <a href="https://twitter.com/twitchutilities" class="code-string">&quot;https://twitter.com/twitchutilities&quot;</a> <span class="code-object">}</span><span class="code-bracket">)</span>;
-    <span class="code-var">alekitopi</span>.<span class="code-function">addJob</span><span class="code-bracket">(</span><span class="code-object">{</span> <span class="code-var">name</span>: <span class="code-string">&quot;CanaryGames&quot;</span>, <span class="code-var">role</span>: <span class="code-string">&quot;owner&quot;</span>, <span class="code-var">link</span>: <a href="https://canarygames.net" class="code-string">&quot;https://canarygames.net&quot;</a> <span class="code-object">}</span><span class="code-bracket">)</span>;
-    <span class="code-var">alekitopi</span>.<span class="code-function">addJob</span><span class="code-bracket">(</span><span class="code-object">{</span> <span class="code-var">name</span>: <span class="code-string">&quot;InfamesRP&quot;</span>, <span class="code-var">role</span>: <span class="code-string">&quot;dev&quot;</span>, <span class="code-var">link</span>: <a href="https://infamesrp.com" class="code-string">&quot;https://infamesrp.com&quot;</a> <span class="code-object">}</span><span class="code-bracket">)</span>;
-
-    <span class="code-comment">/* social media */</span>
-    <span class="code-var">alekitopi</span>.<span class="code-function">addSocial</span><span class="code-bracket">(</span><span class="code-object">{</span> <span class="code-var">type</span>: <span class="code-string">&quot;twitter&quot;</span>, <span class="code-var">link</span>: <a href="https://twitter.com/alekitopi" class="code-string">&quot;https://twitter.com/alekitopi&quot;</a> <span class="code-object">}</span><span class="code-bracket">)</span>;
-    <span class="code-var">alekitopi</span>.<span class="code-function">addSocial</span><span class="code-bracket">(</span><span class="code-object">{</span> <span class="code-var">type</span>: <span class="code-string">&quot;twitch&quot;</span>, <span class="code-var">link</span>: <a href="https://twitch.tv/alekitopi" class="code-string">&quot;https://twitch.tv/alekitopi&quot;</a> <span class="code-object">}</span><span class="code-bracket">)</span>;
-    <span class="code-var">alekitopi</span>.<span class="code-function">addSocial</span><span class="code-bracket">(</span><span class="code-object">{</span> <span class="code-var">type</span>: <span class="code-string">&quot;discord&quot;</span>, <span class="code-var">link</span>: <a href="https://discord.gg/uDQnx5DNvU" class="code-string">&quot;https://discord.gg/uDQnx5DNvU&quot;</a> <span class="code-object">}</span><span class="code-bracket">)</span>;
-    <span class="code-var">alekitopi</span>.<span class="code-function">addSocial</span><span class="code-bracket">(</span><span class="code-object">{</span> <span class="code-var">type</span>: <span class="code-string">&quot;github&quot;</span>, <span class="code-var">link</span>: <a href="https://github.com/alekitopi" class="code-string">&quot;https://github.com/alekitopi&quot;</a> <span class="code-object">}</span><span class="code-bracket">)</span>;
-
-    <span class="code-comment">/* hobbies */</span>
-    <span class="code-var">alekitopi</span>.<span class="code-function">addHobbie</span><span class="code-bracket">(</span><span class="code-object">{</span> <span class="code-var">thing</span>: <span class="code-string">&quot;stream on twitch&quot;</span>, <span class="code-var">where</span>: <span class="code-object">{</span><span class="code-var">type</span>: <span class="code-string">&quot;platform&quot;</span>, <span class="code-var">arg</span>: <span class="code-string">&quot;twitch&quot;</span><span class="code-object">}</span></span> <span class="code-object">}</span><span class="code-bracket">)</span>;
-    <span class="code-var">alekitopi</span>.<span class="code-function">addHobbie</span><span class="code-bracket">(</span><span class="code-object">{</span> <span class="code-var">thing</span>: <span class="code-string">&quot;sleep&quot;</span>, <span class="code-var">where</span>: <span class="code-object">{</span><span class="code-var">type</span>: <span class="code-string">&quot;location&quot;</span>, <span class="code-var">arg</span>: <span class="code-string">&quot;my bed&quot;</span><span class="code-object">}</span> <span class="code-object">}</span><span class="code-bracket">)</span>;
-<span class="code-object">}</span></pre>
-        </div>
+      <div class="top">
+        <div class="btn close"></div>
+        <div class="btn minimize"></div>
+        <div class="btn maximize"></div>
+      </div>
+      <ul class="content"></ul>
     </div>
-</body>
+  </body>
 </html>

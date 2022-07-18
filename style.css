@@ -1,0 +1,162 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100vh;
+}
+
+body {
+  background: #1a1a1a;
+  color: white;
+  font-size: 1rem;
+  font-family: Consolas, "Courier New";
+  width: 100vw;
+  height: 100%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+:root {
+  --terminal-radius: 0.7rem;
+}
+
+.terminal {
+  width: 1080px;
+  height: auto;
+  background-color: #131313;
+  border-radius: var(--terminal-radius);
+  display: flex;
+  flex-direction: column;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* Internet Explorer 10+ */
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 2px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+@media (max-width: 1080px) {
+  body {
+    padding: 0 2rem;
+  }
+
+  .terminal {
+    width: 100%;
+  }
+
+  .top {
+    width: 1080px !important;
+  }
+}
+
+.top {
+  width: 100%;
+  height: 32px;
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+
+  background-color: rgb(75, 75, 75);
+  border-radius: var(--terminal-radius) var(--terminal-radius) 0 0;
+}
+
+.top .btn {
+  width: 0.6rem;
+  height: 0.6rem;
+
+  position: relative;
+  display: inline-block;
+  margin-left: 0.4rem;
+
+  background-color: #ffffff;
+  border: 1px solid #000;
+  border-radius: 50%;
+}
+
+.top .btn:first-child {
+  margin-left: 1rem;
+}
+
+.top .btn.close {
+  background-color: #ff3b47;
+  border-color: #9d252b;
+}
+.top .btn.minimize {
+  background-color: #ffc100;
+  border-color: #9d802c;
+}
+.top .btn.maximize {
+  background-color: #00d742;
+  border-color: #049931;
+}
+
+.content {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+}
+
+.content pre {
+  height: 24px;
+}
+
+.border-r {
+  border-right-width: 1px;
+  border-right-style: solid;
+}
+
+.border-white {
+  border-color: white;
+}
+
+.code-default {
+  color: #d0d0d0;
+}
+.code-keys {
+  color: #a455ff;
+}
+.code-var {
+  color: #ff838c;
+}
+.code-string {
+  color: #edac3c;
+}
+.code-function {
+  color: #56abf4;
+}
+.code-bracket {
+  color: #d278ff;
+}
+.code-object {
+  color: #85c6ff;
+}
+.code-comment {
+  color: #999999;
+  font-style: italic;
+}
