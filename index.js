@@ -929,7 +929,6 @@ const init = () => {
     ul.appendChild(pre);
 
     for (let j = 0; j < code[i].length; j++) {
-      console.log("hola");
       const span = document.createElement("span");
       const { code: text, klass, link } = code[i][j] ?? {};
       span.className = klass ? klass : "";
