@@ -379,7 +379,7 @@ const code = [
       klass: "code-white",
     },
     {
-      code: `"https://twitter.com/twitchutilities"`,
+      code: `"https://twitchutilities.com"`,
       klass: "code-string",
       link: true,
     },
@@ -733,7 +733,7 @@ const code = [
       klass: "code-white",
     },
     {
-      code: `"https://discord.gg/uDQnx5DnvU"`,
+      code: `"https://discord.gg/cDvsD5SsPN"`,
       klass: "code-string",
       link: true,
     },
@@ -816,7 +816,7 @@ const code = [
   [],
   [
     {
-      code: "    /* social media */",
+      code: "    /* hobbies */",
       klass: "code-comment",
     },
   ],
@@ -866,40 +866,8 @@ const code = [
       klass: "code-white",
     },
     {
-      code: "{ ",
-      klass: "code-object",
-    },
-    {
-      code: "type",
-      klass: "code-var",
-    },
-    {
-      code: ": ",
-      klass: "code-white",
-    },
-    {
-      code: `"platform"`,
-      klass: "code-string",
-    },
-    {
-      code: ", ",
-      klass: "code-white",
-    },
-    {
-      code: "arg",
-      klass: "code-var",
-    },
-    {
-      code: ": ",
-      klass: "code-white",
-    },
-    {
       code: `"twitch"`,
       klass: "code-string",
-    },
-    {
-      code: " }",
-      klass: "code-object",
     },
     {
       code: " }",
