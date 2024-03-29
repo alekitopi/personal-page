@@ -267,7 +267,7 @@ export default [
 			"className": "code-white"
 		},
 		{
-			"code": "\"PyroNode\"",
+			"code": "\"PalmaHost\"",
 			"className": "code-string"
 		},
 		{
@@ -283,7 +283,7 @@ export default [
 			"className": "code-white"
 		},
 		{
-			"code": "\"director\"",
+			"code": "\"admin\"",
 			"className": "code-string"
 		},
 		{
@@ -299,9 +299,9 @@ export default [
 			"className": "code-white"
 		},
 		{
-			"code": "\"https://pyronode.com\"",
+			"code": "\"https://palmahost.sh\"",
 			"className": "code-string",
-			"link":true
+			"link": true
 		},
 		{
 			"code": " }",
@@ -380,7 +380,7 @@ export default [
 		{
 			"code": "\"https://twitchutilities.com\"",
 			"className": "code-string",
-			"link":true
+			"link": true
 		},
 		{
 			"code": " }",
@@ -425,7 +425,7 @@ export default [
 			"className": "code-white"
 		},
 		{
-			"code": "\"CanaryGames\"",
+			"code": "\"Zoobu\"",
 			"className": "code-string"
 		},
 		{
@@ -457,9 +457,9 @@ export default [
 			"className": "code-white"
 		},
 		{
-			"code": "\"https://canarygames.net\"",
+			"code": "\"https://zoobu.space\"",
 			"className": "code-string",
-			"link":true
+			"link": true
 		},
 		{
 			"code": " }",
@@ -474,6 +474,13 @@ export default [
 			"className": "code-white"
 		}
 	],
+	[],
+	[
+		{
+			"code": "    /* discord bots */",
+			"className": "code-comment"
+		}
+	],
 	[
 		{
 			"code": "    alekitopi",
@@ -484,7 +491,7 @@ export default [
 			"className": "code-white"
 		},
 		{
-			"code": "addJob",
+			"code": "addBot",
 			"className": "code-function"
 		},
 		{
@@ -504,23 +511,7 @@ export default [
 			"className": "code-white"
 		},
 		{
-			"code": "\"InfamesRP\"",
-			"className": "code-string"
-		},
-		{
-			"code": ", ",
-			"className": "code-white"
-		},
-		{
-			"code": "role",
-			"className": "code-var"
-		},
-		{
-			"code": ": ",
-			"className": "code-white"
-		},
-		{
-			"code": "\"dev\"",
+			"code": "\"RoleCustom\"",
 			"className": "code-string"
 		},
 		{
@@ -536,9 +527,9 @@ export default [
 			"className": "code-white"
 		},
 		{
-			"code": "\"https://infamesrp.com\"",
+			"code": "\"https://rolecustom.com\"",
 			"className": "code-string",
-			"link":true
+			"link": true
 		},
 		{
 			"code": " }",
@@ -608,7 +599,7 @@ export default [
 		{
 			"code": "\"https://twitter.com/alekitopi\"",
 			"className": "code-string",
-			"link":true
+			"link": true
 		},
 		{
 			"code": " }",
@@ -671,7 +662,7 @@ export default [
 		{
 			"code": "\"https://twitch.tv/alekitopi\"",
 			"className": "code-string",
-			"link":true
+			"link": true
 		},
 		{
 			"code": " }",
@@ -734,7 +725,7 @@ export default [
 		{
 			"code": "\"https://discord.gg/cDvsD5SsPN\"",
 			"className": "code-string",
-			"link":true
+			"link": true
 		},
 		{
 			"code": " }",
@@ -797,7 +788,7 @@ export default [
 		{
 			"code": "\"https://github.com/alekitopi\"",
 			"className": "code-string",
-			"link":true
+			"link": true
 		},
 		{
 			"code": " }",
